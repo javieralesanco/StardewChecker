@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/95/26/f0/9526f08c1e26dcb4f6b9afd9d76af8ab.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form-check-label,
+.form-check-input {
+    cursor: pointer;
+}
+
+.container .card .card {
+    min-width: 80%;
+}
+
+article .form-check {
+    display: none;
+}

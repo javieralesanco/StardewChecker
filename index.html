@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="js/darkmode.js"></script>
+    <title>Stardew Checker</title>
+</head>
+
+<body>
+    <div class="container mt-5 mb-5">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Stardew Valley 1.6 achivement checker</h1>
+                <p class="card-subtitle mb-2 text-body-secondary">Hey, here's a simple checker for your Stardew Valley
+                    complex "colectables"</p>
+                <p class="card-subtitle mb-2 text-body-secondary">Yes, it will autostore on your browser</p>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <article>
+                                <h2 class="card-title">Friends</h2>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Name</th>
+                                            <th>Favourite</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="alex">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="alex" class="form-check-label">Alex</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Complete
+                                                                Breakfast
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Jack Be Nimble,
+                                                                Jack
+                                                                Be Thick</li>
+                                                            <li class="list-group-item bg-transparent">Salmon Dinner
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="elliott">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="elliott" class="form-check-label">Elliott</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Crab Cakes</li>
+                                                            <li class="list-group-item bg-transparent">Duck Feather</li>
+                                                            <li class="list-group-item bg-transparent">Lobster</li>
+                                                            <li class="list-group-item bg-transparent">Pomegranate</li>
+                                                            <li class="list-group-item bg-transparent">Squid Ink</li>
+                                                            <li class="list-group-item bg-transparent">Tom Kha Soup</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="harvey">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="harvey" class="form-check-label">Harvey</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Coffee</li>
+                                                            <li class="list-group-item bg-transparent">Pickles</li>
+                                                            <li class="list-group-item bg-transparent">Super Meal</li>
+                                                            <li class="list-group-item bg-transparent">Truffle Oil</li>
+                                                            <li class="list-group-item bg-transparent">Wine</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="sam">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="sam" class="form-check-label">Sam</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Cactus Fruit</li>
+                                                            <li class="list-group-item bg-transparent">Maple Bar</li>
+                                                            <li class="list-group-item bg-transparent">Pizza</li>
+                                                            <li class="list-group-item bg-transparent">Tigerseye</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="sebastian">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="sebastian" class="form-check-label">Sebastian</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Frozen Tear</li>
+                                                            <li class="list-group-item bg-transparent">Obsidian</li>
+                                                            <li class="list-group-item bg-transparent">Pumpkin Soup</li>
+                                                            <li class="list-group-item bg-transparent">Sashimi</li>
+                                                            <li class="list-group-item bg-transparent">Void Egg</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="shane">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="shane" class="form-check-label">Shane</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Beer</li>
+                                                            <li class="list-group-item bg-transparent">Hot Pepper</li>
+                                                            <li class="list-group-item bg-transparent">Pepper Poppers
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Pizza</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="abigail">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="abigail" class="form-check-label">Abigail</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Amethyst</li>
+                                                            <li class="list-group-item bg-transparent">Banana Pudding
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Blackberry
+                                                                Cobbler</li>
+                                                            <li class="list-group-item bg-transparent">Chocolate Cake
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Monster
+                                                                Compendium</li>
+                                                            <li class="list-group-item bg-transparent">Pufferfish</li>
+                                                            <li class="list-group-item bg-transparent">Pumpkin</li>
+                                                            <li class="list-group-item bg-transparent">Spicy Eel</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="emily">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="emily" class="form-check-label">Emily</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Amethyst</li>
+                                                            <li class="list-group-item bg-transparent">Aquamarine</li>
+                                                            <li class="list-group-item bg-transparent">Cloth</li>
+                                                            <li class="list-group-item bg-transparent">Emerald</li>
+                                                            <li class="list-group-item bg-transparent">Jade</li>
+                                                            <li class="list-group-item bg-transparent">Ruby</li>
+                                                            <li class="list-group-item bg-transparent">Survival Burger
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Topaz</li>
+                                                            <li class="list-group-item bg-transparent">Wool</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="haley">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="haley" class="form-check-label">Haley</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Coconut</li>
+                                                            <li class="list-group-item bg-transparent">Fruit Salad</li>
+                                                            <li class="list-group-item bg-transparent">Pink Cake</li>
+                                                            <li class="list-group-item bg-transparent">Sunflower</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="leah">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="leah" class="form-check-label">Leah</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Goat Cheese</li>
+                                                            <li class="list-group-item bg-transparent">Poppyseed Muffin
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Salad</li>
+                                                            <li class="list-group-item bg-transparent">Stir Fry</li>
+                                                            <li class="list-group-item bg-transparent">Truffle</li>
+                                                            <li class="list-group-item bg-transparent">Vegetable Medley
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Wine</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="maru">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="maru" class="form-check-label">Maru</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Battery Pack</li>
+                                                            <li class="list-group-item bg-transparent">Cauliflower</li>
+                                                            <li class="list-group-item bg-transparent">Cheese
+                                                                Cauliflower</li>
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Gold Bar</li>
+                                                            <li class="list-group-item bg-transparent">Iridium Bar</li>
+                                                            <li class="list-group-item bg-transparent">Miner's Treat
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Pepper Poppers
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Radioactive Bar
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Rhubarb Pie</li>
+                                                            <li class="list-group-item bg-transparent">Strawberry</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="penny">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="penny" class="form-check-label">Penny</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Emerald</li>
+                                                            <li class="list-group-item bg-transparent">Melon</li>
+                                                            <li class="list-group-item bg-transparent">Poppy</li>
+                                                            <li class="list-group-item bg-transparent">Poppyseed Muffin
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Red Plate</li>
+                                                            <li class="list-group-item bg-transparent">Roots Platter
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Sandfish</li>
+                                                            <li class="list-group-item bg-transparent">Tom Kha Soup</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="caroline">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="caroline" class="form-check-label">Caroline</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Fish Taco</li>
+                                                            <li class="list-group-item bg-transparent">Green Tea</li>
+                                                            <li class="list-group-item bg-transparent">Summer Spangle
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Tropical Curry
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="clint">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="clint" class="form-check-label">Clint</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Amethyst</li>
+                                                            <li class="list-group-item bg-transparent">Aquamarine</li>
+                                                            <li class="list-group-item bg-transparent">Artichoke Dip
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Emerald</li>
+                                                            <li class="list-group-item bg-transparent">Fiddlehead
+                                                                Risotto</li>
+                                                            <li class="list-group-item bg-transparent">Gold Bar</li>
+                                                            <li class="list-group-item bg-transparent">Iridium Bar</li>
+                                                            <li class="list-group-item bg-transparent">Jade</li>
+                                                            <li class="list-group-item bg-transparent">Omni Geode</li>
+                                                            <li class="list-group-item bg-transparent">Ruby</li>
+                                                            <li class="list-group-item bg-transparent">Topaz</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="demetrius">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="demetrius" class="form-check-label">Demetrius</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Bean Hotpot</li>
+                                                            <li class="list-group-item bg-transparent">Ice Cream</li>
+                                                            <li class="list-group-item bg-transparent">Rice Pudding</li>
+                                                            <li class="list-group-item bg-transparent">Strawberry</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="dwarf">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="dwarf" class="form-check-label">Dwarf</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Amethyst</li>
+                                                            <li class="list-group-item bg-transparent">Aquamarine</li>
+                                                            <li class="list-group-item bg-transparent">Emerald</li>
+                                                            <li class="list-group-item bg-transparent">Jade</li>
+                                                            <li class="list-group-item bg-transparent">Lava Eel</li>
+                                                            <li class="list-group-item bg-transparent">Lemon Stone</li>
+                                                            <li class="list-group-item bg-transparent">Omni Geode</li>
+                                                            <li class="list-group-item bg-transparent">Ruby</li>
+                                                            <li class="list-group-item bg-transparent">Topaz</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="evelyn">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="evelyn" class="form-check-label">Evelyn</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Beet</li>
+                                                            <li class="list-group-item bg-transparent">Chocolate Cake
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Fairy Rose</li>
+                                                            <li class="list-group-item bg-transparent">Stuffing</li>
+                                                            <li class="list-group-item bg-transparent">Tulip</li>
+                                                            <li class="list-group-item bg-transparent">Raisins</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="george">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="george" class="form-check-label">George</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Fried Mushroom
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Leek</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="gus">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="gus" class="form-check-label">Gus</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Escargot</li>
+                                                            <li class="list-group-item bg-transparent">Fish Taco</li>
+                                                            <li class="list-group-item bg-transparent">Orange</li>
+                                                            <li class="list-group-item bg-transparent">Tropical Curry
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="jas">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="jas" class="form-check-label">Jas</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Fairy Rose</li>
+                                                            <li class="list-group-item bg-transparent">Pink Cake</li>
+                                                            <li class="list-group-item bg-transparent">Plum Pudding</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="jodi">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="jodi" class="form-check-label">Jodi</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Chocolate Cake
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Crispy Bass</li>
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Eggplant Parmesan
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Fried Eel</li>
+                                                            <li class="list-group-item bg-transparent">Pancakes</li>
+                                                            <li class="list-group-item bg-transparent">Rhubarb Pie</li>
+                                                            <li class="list-group-item bg-transparent">Vegetable Medley
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="kent">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="kent" class="form-check-label">Kent</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Fiddlehead
+                                                                Risotto</li>
+                                                            <li class="list-group-item bg-transparent">Roasted Hazelnuts
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="krobus">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="krobus" class="form-check-label">Krobus</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Iridium Bar</li>
+                                                            <li class="list-group-item bg-transparent">Monster
+                                                                Compendium</li>
+                                                            <li class="list-group-item bg-transparent">Pumpkin</li>
+                                                            <li class="list-group-item bg-transparent">Void Egg</li>
+                                                            <li class="list-group-item bg-transparent">Void Mayonnaise
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Wild Horseradish
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="leo">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="leo" class="form-check-label">Leo</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Duck Feather</li>
+                                                            <li class="list-group-item bg-transparent">Mango</li>
+                                                            <li class="list-group-item bg-transparent">Ostrich Egg</li>
+                                                            <li class="list-group-item bg-transparent">Poi</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="lewis">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="lewis" class="form-check-label">Lewis</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Autumn's Bounty
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Glazed Yams</li>
+                                                            <li class="list-group-item bg-transparent">Green Tea</li>
+                                                            <li class="list-group-item bg-transparent">Hot Pepper</li>
+                                                            <li class="list-group-item bg-transparent">Vegetable Medley
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="linus">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="linus" class="form-check-label">Linus</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Blueberry Tart
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Cactus Fruit</li>
+                                                            <li class="list-group-item bg-transparent">Coconut</li>
+                                                            <li class="list-group-item bg-transparent">Dish O' The Sea
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">The Alleyway
+                                                                Buffet</li>
+                                                            <li class="list-group-item bg-transparent">Yam</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="marnie">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="marnie" class="form-check-label">Marnie</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Farmer's Lunch
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Pink Cake</li>
+                                                            <li class="list-group-item bg-transparent">Pumpkin Pie</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="pam">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="pam" class="form-check-label">Pam</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Beer</li>
+                                                            <li class="list-group-item bg-transparent">Cactus Fruit</li>
+                                                            <li class="list-group-item bg-transparent">Glazed Yams</li>
+                                                            <li class="list-group-item bg-transparent">Mead</li>
+                                                            <li class="list-group-item bg-transparent">Pale Ale</li>
+                                                            <li class="list-group-item bg-transparent">Parsnip</li>
+                                                            <li class="list-group-item bg-transparent">Parsnip Soup</li>
+                                                            <li class="list-group-item bg-transparent">Piña Colada</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="pierre">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="pierre" class="form-check-label">Pierre</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Fried Calamari
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Price Catalogue
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="robin">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="robin" class="form-check-label">Robin</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Goat Cheese</li>
+                                                            <li class="list-group-item bg-transparent">Peach</li>
+                                                            <li class="list-group-item bg-transparent">Spaghetti</li>
+                                                            <li class="list-group-item bg-transparent">Woody's Secret
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="sandy">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="sandy" class="form-check-label">Sandy</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Crocus</li>
+                                                            <li class="list-group-item bg-transparent">Daffodil</li>
+                                                            <li class="list-group-item bg-transparent">Mango Sticky Rice
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Sweet Pea</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="vincent">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="vincent" class="form-check-label">Vincent</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Cranberry Candy
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Ginger Ale</li>
+                                                            <li class="list-group-item bg-transparent">Grape</li>
+                                                            <li class="list-group-item bg-transparent">Pink Cake</li>
+                                                            <li class="list-group-item bg-transparent">Snail</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="willy">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="willy" class="form-check-label">Willy</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Catfish</li>
+                                                            <li class="list-group-item bg-transparent">Diamond</li>
+                                                            <li class="list-group-item bg-transparent">Iridium Bar</li>
+                                                            <li class="list-group-item bg-transparent">Jewels Of The Sea
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Mead</li>
+                                                            <li class="list-group-item bg-transparent">Octopus</li>
+                                                            <li class="list-group-item bg-transparent">Pumpkin</li>
+                                                            <li class="list-group-item bg-transparent">Sea Cucumber</li>
+                                                            <li class="list-group-item bg-transparent">Sturgeon</li>
+                                                            <li class="list-group-item bg-transparent">The Art O'
+                                                                Crabbing</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="form-check">
+                                                <td class="align-middle">
+                                                    <input class="form-check-input" type="checkbox" id="wizard">
+                                                </td>
+                                                <td class="align-middle">
+                                                    <label for="wizard" class="form-check-label">Wizard</label>
+                                                </td>
+                                                <td>
+                                                    <details>
+                                                        <summary>Show</summary>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item bg-transparent">Book of Mysteries
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Purple Mushroom
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Solar Essence
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Super Cucumber
+                                                            </li>
+                                                            <li class="list-group-item bg-transparent">Void Essence</li>
+                                                        </ul>
+                                                    </details>
+                                                </td>
+                                            </div>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </article>
+                        </div>
+                    </div>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Museum</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Water animals</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Books</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Bundles</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Cook</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Craft</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Crops</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <table>
+                            <thead>
+                                <caption>Ship</caption>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
